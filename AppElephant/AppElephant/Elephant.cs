@@ -7,6 +7,12 @@ namespace AppElephant
     class Elephant
     {
         public int EarSize;
-        public double Name;
+        public string Name;
+
+        public void WhoAmI()
+        {
+            Console.WriteLine("My name is " + Name + ".");
+            Console.WriteLine("My ears are " + EarSize + " at all.");
+        }
     }
 }
