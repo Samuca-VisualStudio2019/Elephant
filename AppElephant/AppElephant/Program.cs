@@ -39,11 +39,14 @@ namespace AppElephant
                     iloyd.EarSize = 4321;
                     iloyd.WhoAmI();
                 }
+                else if (input == '5')
+                {
+                    lucinda.SpeakTo(iloyd, "Hi, Liyold!");
+                }
 
                 else
                 {
                     return;
-                    Console.WriteLine();
                 }
             }
         }
